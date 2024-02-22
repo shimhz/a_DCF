@@ -8,6 +8,6 @@ a-DCF: an architecture agnostic metric
 ## Usage
 - With default a-DCF configuration (a-DCF1 in the paper)
 ```
-from a_dcf import calculate_a_dcf
-results = calculate_a_dcf(YOUR_SCORE_FILE_DIR)
+from a_dcf import a_dcf
+results = a_dcf.calculate_a_dcf(YOUR_SCORE_FILE_DIR)
 ```
