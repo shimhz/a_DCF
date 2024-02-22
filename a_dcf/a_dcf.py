@@ -17,7 +17,7 @@ class CostModel:
     Cfa_cm: float = 20
 
 
-def calculate_sasv_dcf_eers(
+def calculate_a_dcf_eers(
     sasv_score_dir: str,
     output_dir: str = None,
     cost_model: CostModel = CostModel(),
