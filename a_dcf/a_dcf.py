@@ -1,6 +1,5 @@
 import sys
 import os
-import matplotlib.pyplot as plt
 from typing import List
 from dataclasses import dataclass
 
