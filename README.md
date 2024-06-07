@@ -1,5 +1,6 @@
-# a_dcf
-a-DCF: an architecture agnostic metric
+# a_DCF
+a-DCF: an architecture agnostic metric with application to spoofing-robust speaker verification, published in Odyssey 2024 [([Paper](https://arxiv.org/pdf/2403.01355))]
+
 
 ## Installation
 - We support package installation via PyPi. For Python users, `pip install a_dcf` will install the package.
@@ -17,6 +18,7 @@ results = a_dcf.calculate_a_dcf(YOUR_SCORE_FILE_DIR)
     - Trial type should comprise three types: target, nontarget, and spoof
 - Partial example of score file
 ```
+# <speaker_id> <utterance_id> <score> <trial type> 
 LA_0015 LA_E_1103494 6.960134565830231 target
 LA_0007 LA_E_5013670 6.150891035795212 nontarget
 LA_0007 LA_E_7417804 -2.306972861289978 spoof
